@@ -1,0 +1,65 @@
+/* CSS Document */
+body {margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px; scrollbar-base-color:#EEEEEE; }
+
+a:link {color: #666666;text-decoration: none;}
+a:visited {text-decoration: none;color: #666666;}
+a:active {text-decoration: none;color: #FF6600;}
+
+table {font-size:12px;text-decoration:none; line-height:170%; color:#666666; font-family:Verdana, Arial, Helvetica, sans-serif;}
+a.link14:link {color: #555555;text-decoration: none; font-size:14px}
+a.link14:visited {text-decoration: none;color: #555555;font-size:14px}
+a.link14:hover {text-decoration: underline;color: #FF0000;font-size:14px}
+a.link14:active {text-decoration: none;color: #FF3300;font-size:14px}
+
+a.whitelink:link {color: #FFFFFF;text-decoration: none;}
+a.whitelink:visited {text-decoration: none;color: #FFFFFF;}
+a.whitelink:hover {text-decoration: none;color: #FFFF00;}
+a.whitelink:active {text-decoration: none;color: #FFCC00;}
+
+a.redlink:link {text-decoration: none;color: #FF0000;}
+a.redlink:visited {text-decoration: none;color: #FF0000;}
+a.redlink:hover {text-decoration: none;color: #FF0000;}
+a.redlink:active {text-decoration: none;color: #FF6600;}
+
+a.greenlink:link {text-decoration: none;color: #006666;}
+a.greenlink:visited {text-decoration: none;color: #006666;}
+a.greenlink:hover {text-decoration: none;color: #CC0000;}
+a.greenlink:active {text-decoration: none;color: #FF0000;}
+
+.filter1 {filter: DropShadow(Color=#01445A, OffX=1, OffY=1, Positive=3);}
+.filter2 {filter: DropShadow(Color=#513400, OffX=1, OffY=1, Positive=3);}
+.filter3 {filter: DropShadow(Color=#FFFFFF, OffX=1, OffY=1, Positive=3);}
+.filter4 {filter: DropShadow(Color=#A41781, OffX=1, OffY=1, Positive=3);}
+.filter5 {filter:Dropshadow(offx=1,offy=0,color=#FFFFFF)Dropshadow(offx=0,offy=1,color=#FFFFFF)Dropshadow(offx=0,offy=-1,color=#FFFFFF)Dropshadow(offx=-1,offy=0,color=#FFFFFF);}
+
+.input1 {font-size: 12px;color: #666666;text-decoration: none;background-color: #FFFFFF;border: 1px solid #cccccc;}
+.input2 {font-size: 12px;color: #666666;text-decoration: none;border: none; background-color:transparent;}
+.input3 {font-size: 12px;color: #333333;text-decoration: none;border-top-width: 1px;border-right-width: 1px;border-bottom-width: 1px;border-left-width: 1px;border-top-style: solid;	border-right-style: solid;border-bottom-style: solid;border-left-style: solid;border-top-color: #999999;border-right-color: #F2F2F2;	border-bottom-color: #F2F2F2;border-left-color: #999999;}
+
+.blank {font-size: 12px;color: #666666;border: 1px solid #666666;}
+.blank1 {font-size: 12px;color: #666666;border: 1px solid #CCCCCC;}
+.blank2 {font-size: 12px;color: #666666;border: 1px solid #F46C00;}
+
+.submit {font-size: 12px;color: #333333;border:none;text-decoration: none;background-image: url(images/submit_bg.jpg);width:73px;	height:23px;padding-top: 3px;}
+
+.font14 {font-size: 14px;text-decoration: none;}
+.font10 {font-size:10px;}
+.whitefont{color:#FFFFFF;}
+.redfont {color:#000000;}
+.bluefont {color:#0066CC;}
+.table2 {background-color: #F3F3F3;border-top-width: 1px;border-right-width: 1px;border-bottom-width: 1px;border-left-width: 1px;border-top-style: solid;border-right-style: solid;border-bottom-style: solid;border-left-style: solid;border-top-color: #FFFFFF;border-right-color: #CCCCCC;border-bottom-color: #CCCCCC;border-left-color: #FFFFFF;
+}
+.table3 {background-color:#E0F0F5;border-top-width: 1px;border-right-width: 1px;border-bottom-width: 1px;border-left-width: 1px;border-top-style: solid;border-right-style: solid;border-bottom-style: solid;border-left-style: solid;border-top-color: #FFFFFF;border-right-color: #CCCCCC;border-bottom-color: #CCCCCC;border-left-color: #FFFFFF;
+}
+.input{font-size: 12px;color: #FF3300;border: 1px solid #E0E0E0;}
+.fontshadow {FILTER: DropShadow(Color=#666666, OffX=1, OffY=1, Positive=1);}
+
+.news_content{ width:550px;}
+.news_content img{
+max-width:540px; width:expression(this.width>540?"540px":this.width);
+max-height:800px; height:expression(this.height>800?"500px":this.height);
+}
+
+.font_bgc {background-color: #CCE6F2;}
+.picfilter {filter: BlendTrans(Duration=3);}
+.picfilter2 {filter: RevealTrans(Duration=2, Transition=23);}

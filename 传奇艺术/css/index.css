@@ -1,0 +1,45 @@
+.banner{width: 100%;border-bottom:5px solid #df0225; }
+.banner img{width:100%;}
+section{border-bottom: 5px solid #df0225;}
+section .main-inner{width:71.1638%;/*960/1349*/margin: 0 auto;background-image: url(../images/main_bg_13.jpg);background-repeat:no-repeat;background-position: left 50px;}
+section .main-inner .top{padding-top:80px;}
+section .main-inner .top article{float:left;width:55.7291%;/*535/960*/}
+section .main-inner .top article ul{height:50px;border-bottom:1px dashed #868686;margin-left:2%;}
+section .main-inner .top article ul li{float:left;width: 29.6168%;line-height: 36px;/*margin-right: 3%;*/background-image: url(../images/main-a.png);background-repeat:no-repeat;-webkit-background-size:contain;
+background-size:contain;}
+section .main-inner .top article ul li a{/*display:block;width:23.7383%;*//*127/535*/line-height:1.5em;text-decoration:none;font-family:"楷体";font-size:1.8em;color:#fff;/*background-image: url(../images/main-a.png);background-repeat:no-repeat;-webkit-background-size:contain;
+background-size:contain;*/padding:4% 2%;text-align:center;}
+section .main-inner .top article ul li:hover{background-image: url(../images/main-a2.png);}
+section .main-inner .top article  p{font-size:1.4em;margin-top: 25px;margin-left: 2%;line-height: 1.5em;}
+section .main-inner .top article  p a{text-decoration:none;color:#db0020}
+section .main-inner .top aside{float:right;width:36.4583%;/*350/960*/margin: 0 auto;}
+section .main-inner .top aside .news{display:block;width:32.2857%;/*113/350*/line-height:2.5em;background-image: url(../images/news.png);-webkit-background-size: contain;
+background-size: contain;background-repeat:no-repeat;text-decoration:none;font-family:"楷体";font-size:1.8em;color:#fff;padding-left:3%;}
+section .main-inner .top aside .more{float:right;text-decoration:none;color:#e00427;}
+section .main-inner .top aside div{position:relative;background-color:#f8f8f8;border:1px solid#e2e2e2;margin:0 auto;margin-top:15px;margin-bottom:15px;}
+section .main-inner .top aside div img{width:100%;margin:6px 0;border-bottom:3px solid #fd194a;}
+section .main-inner .top aside div ul{width:23.5%;height:16px;background-color:#2e2e2e;position:absolute;top:106px;left:76%;}
+section .main-inner .top aside div ul li{float:left;}
+section .main-inner .top aside div ul li a{display:block;width:20px;line-height:1.5em;text-align:center;text-decoration:none;color:#fff;}
+section .main-inner .top aside div ul li:first-child{background-color:#fd194a;}
+section .main-inner .top aside div ul li a:hover{background-color:#fd194a;}
+section .main-inner .top aside>ul li a{text-decoration:none;line-height:2em;font-family:"微软雅黑";color:#5c5c5c;background-image: url(../images/list-style_03.png);background-repeat:no-repeat;background-position: left center;padding-left:5%;}
+section .main-inner .top aside>ul li a:hover{color:#ff0000;}
+section .main-inner .top aside>ul li span{line-height:2em;float:right;color:#a8a6ab;}
+section .main-inner .bottom{margin-top:70px;}
+section .main-inner .bottom div:first-child{width:91.6666%;/*880/960*/height:50px;margin: 0 auto;border-bottom:1px dashed #8a8a8a}
+section .main-inner .bottom div:first-child a:first-child{float:left;background-image: url(../images/news.png);-webkit-background-size: contain;
+background-size: contain;background-repeat:no-repeat;width:12.8409%;/*113/880*/line-height:2.5em;text-decoration:none;color:#fff;font-family:"楷体";font-size:1.8em;padding-left:1.5%;}
+section .main-inner .bottom div:first-child a:last-child{float:right;text-decoration:none;color:#e00427;margin-top:20px;}
+section .main-inner .bottom .pic{width:100%;margin-top: 40px;margin-bottom: 110px;}
+section .main-inner .bottom .pic figure{float:left;margin-left:1.2%;text-align:center;color:#666666;}
+section .main-inner .bottom .pic figure figcaption{color:#666666;margin-top:15px;}
+section .main-inner .bottom .pic a img{margin-top:120px;}
+
+@media screen and (max-width:480px){
+	body{font-size:5px;}
+	section .main-inner .top article{float:none;width: 100%;}
+	section .main-inner .top aside{float:none;width:100%;margin-top:30px;}
+	section .main-inner .top aside div ul{width: 31.5%;top:79px;left:68.5%;}
+	section .main-inner .bottom div:first-child a:first-child{width: 100%;}
+}

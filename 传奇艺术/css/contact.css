@@ -1,0 +1,19 @@
+.banner{width: 100%;border-bottom:5px solid #df0225; }
+.banner img{width:100%;}
+section{border-bottom: 5px solid #df0225;}
+section .main-inner{width:71.1638%;/*960/1349*/margin: 0 auto;background-image: url(../images/main_bg_13.jpg);background-repeat:no-repeat;background-position: left 50px;}
+section .main-inner .top{padding-top:80px;height:60px;margin-left: 3%;border-bottom:1px dashed #555557;}
+section .main-inner .top a{display:block;float:left;width:12.8409%;/*113/880*/line-height:2.5em;background-image: url(../images/news.png);background-repeat:no-repeat;text-decoration:none;color:#fff;font-family:"楷体";font-size:1.8em;padding-left:1.5%;}
+section .main-inner .top img{margin-left: 5%;}
+section .main-inner h2{font-family: "微软雅黑";color:#333;font-size:3em;padding-top:70px;padding-left:3%;margin-bottom: 50px;}
+section .main-inner ul{margin-left:9%;margin-bottom: 50px;}
+section .main-inner ul li{line-height:2.5em;font-family:"宋体";font-weight:block;font-size:1.6em;color:#312f30;}
+section .main-inner ul li img{margin-top: 10px;margin-right:2%;}
+
+@media screen and (max-width:480px){
+	body{font-size:3px;}
+	section .main-inner .top a{-webkit-background-size:contain;
+	background-size:contain;width: 30%;}
+	section .main-inner .top img{width:68%;margin-left: 0;}
+	section .main-inner ul{margin-left:0;}
+}

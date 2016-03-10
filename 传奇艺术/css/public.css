@@ -1,0 +1,32 @@
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;clear:both;}
+body{font-size:10px;}
+.container{border:1px solid red;width: 98%;margin: 0 auto;}
+header{width:100%;background-image: url(../images/header-border_02.png);background-position: center bottom;background-repeat:repeat-X;}
+header .header-inner{width:68.1986%;/*920/1349*/margin: 0 auto;position:relative;}
+header .header-inner h1{float:left;background-image: url(../images/logo_03.png);background-repeat:no-repeat;-webkit-background-size: contain;
+background-size: contain;width:23.2608%;/*214/920*/height:98px;text-indent:-2000px;margin-top: 10px;margin-bottom:20px;}
+header .header-inner h1 img{width:100%;}
+header .header-inner nav ul{float:right;width:61.9565%;/*570/920*/margin-top:55px;}
+header .header-inner nav ul li{float:left;width:16.1403%;line-height:6.5em;}
+header .header-inner nav li a{display:block;text-decoration:none;color:#e30024;font-family:"微软雅黑";font-weight:bold;font-size:1.6em;text-align:center;}
+header .header-inner nav li a:hover{background-image: url(../images/li-hover_03.png);background-repeat:no-repeat;background-position:center bottom;}
+header .header-inner div{width:30%;position:absolute;left:70%;}
+header .header-inner div a{display:block;float:left;width:45%;line-height:2.5em;background-color:#f2f2f2;text-decoration:none;color:#000;margin-left:4%;text-align:center;border-radius:0 0 7px 7px;box-shadow:1px 1px 3px #a3a3a3;}
+footer{background-image: url(../images/footer_bg.gif);margin-top: 5px;}
+footer .footer-inner{width:71.1638%;/*960/1349*/margin: 0 auto;}
+footer .footer-inner .left{float:left;padding-top:15px;margin-bottom:35px;}
+footer .footer-inner .left img{width: 100%;}
+footer .footer-inner .left p{color:#a3a1a2;margin-top: 5px;}
+footer .footer-inner nav{float:right;width:46.4583%;/*446/960*/margin-top:35px;}
+footer .footer-inner nav li{float:left;/*height: 50px;*//*margin-left:5%;*/margin-right:2%;padding-left:1%;border-left:1px solid #77051f;}
+footer .footer-inner nav li a{text-decoration:none;color:#a3a1a2;margin:0 auto;}
+footer .footer-inner nav p{color:#a3a1a2;margin-top:20px;}
+
+@media screen and (max-width:480px){
+	header .header-inner nav{padding-top:50px;/*margin-right: 68px;*/}
+	/*header .header-inner nav ul{float:none;}*/
+	header .header-inner div{width:54%;}
+	header .header-inner div a{font-size: 5px}
+}
